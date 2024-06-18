@@ -3,7 +3,6 @@ name: AX3600 OpenWRT Build
 on:
 #  schedule:
 #    - cron: 5 6 * * 0
-  push:
   watch:
     types: started
 
