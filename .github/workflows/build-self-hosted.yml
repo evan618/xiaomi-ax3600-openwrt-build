@@ -1,4 +1,4 @@
-name: AX3600 OpenWRT Build
+name: AX3600 OpenWRT Build self-hosted
 
 on:
   repository_dispatch:
