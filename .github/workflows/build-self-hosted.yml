@@ -1,11 +1,13 @@
 name: AX3600 OpenWRT Build
 
 on:
+  repository_dispatch:
+  workflow_dispatch:
 #  schedule:
 #    - cron: 5 6 * * 0
-  push:
-  watch:
-    types: started
+#  push:
+#  watch:
+#    types: started
 
 jobs:
   build:
